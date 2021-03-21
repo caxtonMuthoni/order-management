@@ -25,9 +25,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route::group([
-//     'middleware' => 'auth:api'
-// ], function () {
+Route::group([
+    'middleware' => 'auth:api'
+], function () {
     // Product routes
     Route::group([
         'prefix' => 'products'
@@ -83,10 +83,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
         Route::get('/supplier-report', [SupplierProductController::class, 'getSupplierProucts']);
         Route::delete('/delete/{id}', [SupplierProductController::class, 'destroy']);
     });
-// });
+
+    Route::get('/users',[ProductController::class, 'users']);
+});
 
 
-Route::get('/users',[ProductController::class, 'users']);
 
 Route::fallback(function () {
     return response()->json([
