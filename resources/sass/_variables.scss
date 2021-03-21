@@ -1,0 +1,100 @@
+// Body
+$body-bg: #f8fafc;
+
+$color-grey-light-1: #ececec;
+$color-grey-light-2: #e6e6e6;
+$color-grey-light-3: #a3a3a3;
+$color-grey-light-4: #858483;
+
+$color-grey-dark-1: #07152E;
+
+$color-primary:#c78409;
+
+$color-folder-1: #3678FA;
+$color-folder-2: #FCC35B;
+$color-folder-3: #F88DB4;
+$color-folder-4: #7D7BFB;
+
+
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+.blue{
+    color:$blue;
+}
+
+.indigo{
+    color: $indigo;
+}
+.purple {
+    color: $purple ;
+}
+.pink {
+    color: $pink;
+}
+.red {
+    color: $red;
+}
+.orange{
+    color: $orange;
+}
+.yellow{
+    color: $yellow
+}
+
+.green{
+    color: $green;
+} 
+.teal{
+    color: $teal;
+} 
+.cyan{
+    color:$cyan;
+}
+
+
+.nav-link--2 {
+    color: $body-bg !important;
+    cursor: pointer;
+}
+
+.chip {
+    padding: 2px 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    display: inline-block;
+    border-radius: 100px;
+    margin: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.table-nowrap {
+    white-space: nowrap !important;
+}
+
+.card-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-heading {
+    flex: 1;
+}
