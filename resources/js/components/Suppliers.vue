@@ -101,7 +101,7 @@
                 <label
                   for="colFormLabelLg"
                   class="col-sm-3 col-form-label col-form-label-lg"
-                  >Product Name</label
+                  >Supplier Name</label
                 >
                 <div class="col-sm-9">
                   <input

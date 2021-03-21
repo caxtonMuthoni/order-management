@@ -89438,7 +89438,7 @@ var render = function() {
                             "col-sm-3 col-form-label col-form-label-lg",
                           attrs: { for: "colFormLabelLg" }
                         },
-                        [_vm._v("Product Name")]
+                        [_vm._v("Supplier Name")]
                       ),
                       _vm._v(" "),
                       _c(
